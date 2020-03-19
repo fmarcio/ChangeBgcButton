@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.color-btn {
+    padding: 1rem;
+    border: 2px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(26, 15, 15, 0.8);
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.color-btn i {
+    padding-left: 10px;
+}
+
+.color-btn:hover {
+    background: rgb(0, 0, 0);
+}
+
+@media(max-width: 430px) {
+    .color-btn {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
